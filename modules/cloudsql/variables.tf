@@ -94,3 +94,8 @@ variable "cloudsql_password" {
   description = "CloudSQL password"
   default     = ""
 }
+
+variable "cloudsql_private_ip_prefix_length" {
+  description = "Prefix Length to be used in CloudSQL's private IP address"
+  default     = "16"
+}
